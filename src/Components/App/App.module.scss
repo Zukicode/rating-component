@@ -1,0 +1,12 @@
+@import 'styles/colors.scss';
+
+.app {
+	width: 100%;
+	max-width: 1440px;
+	height: 100vh;
+	min-height: 400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

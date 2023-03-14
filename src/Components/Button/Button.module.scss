@@ -1,0 +1,28 @@
+@import 'styles/colors.scss';
+
+.btn {
+	width: 45px;
+	height: 45px;
+	border-radius: 50px;
+	border: none;
+	background-color: hsl(211, 20%, 25%);
+	color: $color-m-gray;
+	font-weight: 700;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: all 0.4s;
+
+	&:hover {
+		transition: all 0.4s;
+		color: $color-white;
+		background-color: $color-l-gray;
+	}
+
+	&.active {
+		background-color: $color-orange;
+		color: $color-white;
+	}
+}

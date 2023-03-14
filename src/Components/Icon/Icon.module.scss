@@ -1,0 +1,19 @@
+.icon {
+	width: 100%;
+
+	.iconBorder {
+		width: 30px;
+		height: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: hsl(211, 20%, 25%);
+		padding: 20px;
+		border-radius: 50px;
+
+		img {
+			position: relative;
+			left: 1px;
+		}
+	}
+}
